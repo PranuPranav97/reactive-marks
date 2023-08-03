@@ -21,7 +21,9 @@
     "postbuild": "npm run gulp",
     "semantic-release": "semantic-release",
     "storybook": "storybook dev -p 6006",
-    "build-storybook": "storybook build"
+    "build-storybook": "storybook build",
+    "prepare": "npm run build",
+    "publish": "semantic-release"
   },
   "devDependencies": {
     "@babel/core": "^7.22.9",

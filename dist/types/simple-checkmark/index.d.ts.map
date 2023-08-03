@@ -1,1 +1,0 @@
-{"version":3,"file":"index.d.ts","sourceRoot":"","sources":["../../../src/types/simple-checkmark/index.ts"],"names":[],"mappings":"AAAA,OAAO,EAAE,eAAe,EAAE,MAAM,WAAW,CAAC;AAE5C,MAAM,WAAW,qBAAqB;IACpC,cAAc,EAAE,eAAe,CAAC;IAChC,IAAI,EAAE,MAAM,CAAC;IACb,cAAc,EAAE,MAAM,CAAC;IACvB,YAAY,EAAE,OAAO,CAAC;CACvB"}

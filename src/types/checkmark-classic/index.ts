@@ -1,4 +1,11 @@
+import { BackgroundColor } from "../common";
+
 export interface ICheckMarkClassicProps {
-  backgroundColor: string;
-  strokeColor: string;
+  checkMarkColor: BackgroundColor;
+  //TODO Pranav VS Add
+  // size: number;
+  animationSpeed: number;
+  width: number;
+  height: number;
+  circleColor: BackgroundColor;
 }

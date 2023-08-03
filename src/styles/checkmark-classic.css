@@ -6,7 +6,6 @@
   display: grid;
   place-content: center;
   border-radius: 50%;
-  border: solid 8px green;
   z-index: -1;
 }
 
@@ -14,8 +13,6 @@
   content: "";
   width: 100px;
   height: 40px;
-  border-left: solid 10px green;
-  border-bottom: solid 10px green;
   transform: rotate(-45deg) translate(5px, -5px);
 }
 

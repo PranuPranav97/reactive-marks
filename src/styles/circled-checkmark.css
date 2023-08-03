@@ -1,0 +1,60 @@
+.circled-checkmark-svg {
+  display: block;
+  margin: 40px auto 0;
+}
+
+.circled-checkmark-path {
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 0;
+  &.circled-checkmark-circle {
+    -webkit-animation: circled-checkmark-dash 0.9s ease-in-out;
+    animation: circled-checkmark-dash 0.9s ease-in-out;
+  }
+  &.circled-checkmark-circled-checkmark-line {
+    stroke-dashoffset: 1000;
+    -webkit-animation: circled-checkmark-dash 0.9s 0.35s ease-in-out forwards;
+    animation: circled-checkmark-dash 0.9s 0.35s ease-in-out forwards;
+  }
+  &.circled-checkmark-circled-checkmark-check {
+    stroke-dashoffset: -100;
+    -webkit-animation: circled-checkmark-dash-check 0.9s 0.35s ease-in-out
+      forwards;
+    animation: circled-checkmark-dash-check 0.9s 0.35s ease-in-out forwards;
+  }
+}
+
+@-webkit-keyframes circled-checkmark-dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes circled-checkmark-dash {
+  0% {
+    stroke-dashoffset: 1000;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@-webkit-keyframes circled-checkmark-dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}
+
+@keyframes circled-checkmark-dash-check {
+  0% {
+    stroke-dashoffset: -100;
+  }
+  100% {
+    stroke-dashoffset: 900;
+  }
+}

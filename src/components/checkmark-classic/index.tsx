@@ -5,7 +5,7 @@ const CheckMarkClassic: React.FC<ICheckMarkClassicProps> = (
   props: ICheckMarkClassicProps
 ) => {
   return (
-    <div className="check-anime-outer">
+    <div className="checkmark-classic-check-anime-outer">
       {" "}
       {/* Use the CSS Module class */}
       <div className="checkmark-classic-check-anime-mask checkmark-classic-check-anime-mask-right"></div>

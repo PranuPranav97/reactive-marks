@@ -10,12 +10,12 @@
     -webkit-animation: circled-checkmark-dash 0.9s ease-in-out;
     animation: circled-checkmark-dash 0.9s ease-in-out;
   }
-  &.circled-checkmark-circled-checkmark-line {
+  &.circled-checkmark-line {
     stroke-dashoffset: 1000;
     -webkit-animation: circled-checkmark-dash 0.9s 0.35s ease-in-out forwards;
     animation: circled-checkmark-dash 0.9s 0.35s ease-in-out forwards;
   }
-  &.circled-checkmark-circled-checkmark-check {
+  &.circled-checkmark-check {
     stroke-dashoffset: -100;
     -webkit-animation: circled-checkmark-dash-check 0.9s 0.35s ease-in-out
       forwards;

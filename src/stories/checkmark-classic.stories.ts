@@ -1,5 +1,5 @@
 import type { Meta, StoryObj } from "@storybook/react";
-import "../styles/checkmark-classic.css"; // Import the CSS Module Dynamically
+import "../../dist/styles/dist.css"; // Import the CSS Module Dynamically
 
 import { CheckMarkClassic } from "../components/checkmark-classic";
 // More on how to set up stories at: https://storybook.js.org/docs/react/writing-stories/introduction#default-export
@@ -27,8 +27,8 @@ export const Primary: Story = {
     checkMarkColor: "green",
     circleColor: "green",
     animationSpeed: 0.1,
-    height: 25,
-    width: 25,
+    height: 100,
+    width: 100,
   },
 };
 

@@ -11,7 +11,6 @@ const CheckMarkClassic: React.FC<ICheckMarkClassicProps> = (
     width: 25,
   }
 ) => {
-  console.log({ props });
   const CheckMarkDiv = styled.div`
     border: solid 8px ${props.circleColor};
     &::before {

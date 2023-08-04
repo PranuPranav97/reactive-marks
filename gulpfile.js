@@ -7,11 +7,7 @@ const fs = require("fs");
 
 gulp.task("combine-css", () => {
   return gulp
-    .src([
-      "./src/styles/checkmark-classic.css",
-      "./src/styles/circled-checkmark.css",
-      "./src/styles/simple-checkmark.css",
-    ])
+    .src("./src/styles/*.css")
     .pipe(concat("dist.css"))
     .pipe(minifyCSS())
     .pipe(
